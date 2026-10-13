@@ -144,8 +144,16 @@ em curso     mobile e UX dos apps de clínica e tutor do KURA
   <img src="assets/06-contato-light.svg" alt="06 · Contato" width="100%">
 </picture>
 
-Quer conversar sobre interface, motion ou produto? O caminho mais rápido é o [LinkedIn](https://www.linkedin.com/in/guilherme-sola-garcia-8b8208351/) ou o [e-mail](mailto:guilhermesolagarcia31@gmail.com).
+```text
+aberto a     estágio · júnior · freelance
+foco         frontend · mobile · UX
+base         São Paulo, BR
+```
 
+Tem uma vaga ou um projeto em mente? Me chama:
+
+<a href="https://www.linkedin.com/in/guilherme-sola-garcia-8b8208351/"><img src="https://img.shields.io/badge/linkedin-falar_comigo-C8F135?style=for-the-badge&logo=linkedin&logoColor=C8F135&labelColor=12161B" alt="Falar comigo no LinkedIn"></a>
+<a href="mailto:guilhermesolagarcia31@gmail.com"><img src="https://img.shields.io/badge/e--mail-guilhermesolagarcia31@gmail.com-12161B?style=for-the-badge&logo=gmail&logoColor=C8F135&labelColor=12161B" alt="Enviar e-mail"></a>
 <br>
 
 <picture>
