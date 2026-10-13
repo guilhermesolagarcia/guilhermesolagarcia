@@ -39,16 +39,16 @@
     <rect width="1200" height="44" fill="#12161B"/>
     <line x1="0" y1="44" x2="1200" y2="44" stroke="#232A33"/>
     <circle cx="26" cy="22" r="6" fill="#232A33"/><circle cx="46" cy="22" r="6" fill="#232A33"/><circle cx="66" cy="22" r="6" fill="#232A33"/>
-    <text x="600" y="27" text-anchor="middle" class="mono" font-size="13" fill="#7D8794">sola@fiap: ~ — man sola</text>
+    <text x="600" y="27" text-anchor="middle" class="mono" font-size="13" fill="#7D8794">sola@fiap: ~</text>
     <rect class="scan" x="0" y="43" width="240" height="2" fill="url(#beam)"/>
 
     <!-- conteúdo -->
-    <text class="mono in d1" x="64" y="104" font-size="16" fill="#7D8794"><tspan fill="#C8F135">$</tspan> man sola <tspan class="cursor" fill="#C8F135">█</tspan></text>
+    <text class="mono in d1" x="64" y="104" font-size="16" fill="#7D8794"><tspan fill="#C8F135">$</tspan> whoami <tspan class="cursor" fill="#C8F135">█</tspan></text>
 
-    <text class="mono in d2" x="64" y="146" font-size="13" letter-spacing="3" fill="#5EEAD4">SOLA(1) · PRODUCT REQUIREMENTS</text>
+    <text class="mono in d2" x="64" y="146" font-size="13" letter-spacing="3" fill="#5EEAD4">DESENVOLVEDOR FRONTEND · UX</text>
     <text class="sans in d2" x="60" y="222" font-size="76" font-weight="800" letter-spacing="-3" fill="#E8ECF1">Guilherme Sola<tspan fill="#C8F135">.</tspan></text>
 
-    <text class="sans in d3" x="64" y="270" font-size="22" fill="#E8ECF1" fill-opacity=".86">Dev frontend que entende UX. Interfaces que se movem <tspan font-style="italic">com motivo</tspan>.</text>
+    <text class="sans in d3" x="64" y="270" font-size="22" fill="#E8ECF1" fill-opacity=".86">Interfaces que se movem <tspan font-style="italic">com motivo</tspan> e que qualquer pessoa consegue usar.</text>
 
     <g class="mono in d4" font-size="14" fill="#7D8794">
       <text x="64" y="326"><tspan fill="#C8F135">--motion</tspan>  GSAP · Three.js · R3F</text>

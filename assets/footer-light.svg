@@ -1,8 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="80" viewBox="0 0 1200 80" role="img" aria-label="SOLA(1) · São Paulo, BR · 2026">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="80" viewBox="0 0 1200 80" role="img" aria-label="Guilherme Sola Garcia · São Paulo, BR · 2026">
   <line x1="0" y1="20" x2="1200" y2="20" stroke="#E2E5E0" stroke-width="1.5"/>
   <g font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',monospace" font-size="14" fill="#66707C">
-    <text x="0" y="60">SOLA(1)</text>
-    <text x="600" y="60" text-anchor="middle">feito à mão · São Paulo, BR</text>
+    <text x="0" y="60">Guilherme Sola Garcia</text>
+    <text x="600" y="60" text-anchor="middle">São Paulo, BR</text>
     <text x="1200" y="60" text-anchor="end">2026<tspan fill="#4F7A00"> ●</tspan></text>
   </g>
 </svg>

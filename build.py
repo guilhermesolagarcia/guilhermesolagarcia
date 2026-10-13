@@ -57,16 +57,16 @@ def header(t):
     <rect width="1200" height="44" fill="{t['panel']}"/>
     <line x1="0" y1="44" x2="1200" y2="44" stroke="{t['line']}"/>
     <circle cx="26" cy="22" r="6" fill="{t['line']}"/><circle cx="46" cy="22" r="6" fill="{t['line']}"/><circle cx="66" cy="22" r="6" fill="{t['line']}"/>
-    <text x="600" y="27" text-anchor="middle" class="mono" font-size="13" fill="{t['mute']}">sola@fiap: ~ — man sola</text>
+    <text x="600" y="27" text-anchor="middle" class="mono" font-size="13" fill="{t['mute']}">sola@fiap: ~</text>
     <rect class="scan" x="0" y="43" width="240" height="2" fill="url(#beam)"/>
 
     <!-- conteúdo -->
-    <text class="mono in d1" x="64" y="104" font-size="16" fill="{t['mute']}"><tspan fill="{t['accent']}">$</tspan> man sola <tspan class="cursor" fill="{t['accent']}">█</tspan></text>
+    <text class="mono in d1" x="64" y="104" font-size="16" fill="{t['mute']}"><tspan fill="{t['accent']}">$</tspan> whoami <tspan class="cursor" fill="{t['accent']}">█</tspan></text>
 
-    <text class="mono in d2" x="64" y="146" font-size="13" letter-spacing="3" fill="{t['accent2']}">SOLA(1) · PRODUCT REQUIREMENTS</text>
+    <text class="mono in d2" x="64" y="146" font-size="13" letter-spacing="3" fill="{t['accent2']}">DESENVOLVEDOR FRONTEND · UX</text>
     <text class="sans in d2" x="60" y="222" font-size="76" font-weight="800" letter-spacing="-3" fill="{t['text']}">Guilherme Sola<tspan fill="{t['accent']}">.</tspan></text>
 
-    <text class="sans in d3" x="64" y="270" font-size="22" fill="{t['text']}" fill-opacity=".86">Dev frontend que entende UX. Interfaces que se movem <tspan font-style="italic">com motivo</tspan>.</text>
+    <text class="sans in d3" x="64" y="270" font-size="22" fill="{t['text']}" fill-opacity=".86">Interfaces que se movem <tspan font-style="italic">com motivo</tspan> e que qualquer pessoa consegue usar.</text>
 
     <g class="mono in d4" font-size="14" fill="{t['mute']}">
       <text x="64" y="326"><tspan fill="{t['accent']}">--motion</tspan>  GSAP · Three.js · R3F</text>
@@ -135,25 +135,25 @@ def kura(t):
 
 
 def footer(t):
-    return f"""<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="80" viewBox="0 0 1200 80" role="img" aria-label="SOLA(1) · São Paulo, BR · 2026">
+    return f"""<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="80" viewBox="0 0 1200 80" role="img" aria-label="Guilherme Sola Garcia · São Paulo, BR · 2026">
   <line x1="0" y1="20" x2="1200" y2="20" stroke="{t['line']}" stroke-width="1.5"/>
   <g font-family="{MONO}" font-size="14" fill="{t['mute']}">
-    <text x="0" y="60">SOLA(1)</text>
-    <text x="600" y="60" text-anchor="middle">feito à mão · São Paulo, BR</text>
+    <text x="0" y="60">Guilherme Sola Garcia</text>
+    <text x="600" y="60" text-anchor="middle">São Paulo, BR</text>
     <text x="1200" y="60" text-anchor="end">2026<tspan fill="{t['accent']}"> ●</tspan></text>
   </g>
 </svg>"""
 
 
-SECTIONS = [("01", "problem"), ("02", "principles"), ("03", "shipped"),
-            ("04", "scope"), ("05", "non-goals"), ("06", "roadmap"), ("07", "see also")]
+SECTIONS = [("01", "sobre"), ("02", "princípios"), ("03", "projetos"),
+            ("04", "stack"), ("05", "agora"), ("06", "contato")]
 
 for name, t in THEMES.items():
     (OUT / f"header-{name}.svg").write_text(header(t), encoding="utf-8")
     (OUT / f"kura-{name}.svg").write_text(kura(t), encoding="utf-8")
     (OUT / f"footer-{name}.svg").write_text(footer(t), encoding="utf-8")
     for num, label in SECTIONS:
-        slug = label.replace(" ", "-")
+        slug = label.replace(" ", "-").replace("í", "i")
         (OUT / f"{num}-{slug}-{name}.svg").write_text(divider(t, num, label), encoding="utf-8")
 
 print("ok", len(list(OUT.glob("*.svg"))), "svgs")
