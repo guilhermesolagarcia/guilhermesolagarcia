@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-label="KURA × Clyvo Vet — apps mobile de clínica e tutor">
+  <rect width="1200" height="675" fill="#0B0D10"/>
+  <defs><pattern id="g" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#232A33"/></pattern></defs>
+  <rect width="1200" height="675" fill="url(#g)" opacity=".6"/>
+  <g font-family="'Inter','Segoe UI',Helvetica,Arial,sans-serif">
+    <text x="80" y="150" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',monospace" font-size="20" letter-spacing="4" fill="#5EEAD4">CHALLENGE FIAP 2026 × CLYVO VET</text>
+    <text x="76" y="260" font-size="120" font-weight="800" letter-spacing="-5" fill="#E8ECF1">KURA<tspan fill="#C8F135">.</tspan></text>
+    <text x="80" y="320" font-size="30" fill="#E8ECF1" fill-opacity=".8">O cuidado registrado.</text>
+    <text x="80" y="540" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',monospace" font-size="20" fill="#7D8794"><tspan fill="#C8F135">role</tspan>  mobile + ux</text>
+  </g>
+  <!-- dois celulares -->
+  <g transform="translate(720 90)">
+    <rect width="190" height="390" rx="30" fill="#12161B" stroke="#232A33" stroke-width="2"/>
+    <rect x="20" y="40" width="150" height="16" rx="8" fill="#C8F135"/>
+    <rect x="20" y="76" width="110" height="10" rx="5" fill="#232A33"/>
+    <rect x="20" y="110" width="150" height="70" rx="14" fill="#232A33" opacity=".7"/>
+    <rect x="20" y="194" width="150" height="70" rx="14" fill="#232A33" opacity=".7"/>
+    <rect x="20" y="278" width="150" height="70" rx="14" fill="#232A33" opacity=".7"/>
+    <text x="95" y="430" text-anchor="middle" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',monospace" font-size="16" fill="#7D8794">clínica</text>
+  </g>
+  <g transform="translate(940 150)">
+    <rect width="190" height="390" rx="30" fill="#12161B" stroke="#232A33" stroke-width="2"/>
+    <circle cx="95" cy="100" r="44" fill="#5EEAD4" opacity=".85"/>
+    <rect x="40" y="170" width="110" height="14" rx="7" fill="#E8ECF1" opacity=".8"/>
+    <rect x="55" y="196" width="80" height="10" rx="5" fill="#232A33"/>
+    <rect x="20" y="240" width="70" height="70" rx="14" fill="#232A33" opacity=".7"/>
+    <rect x="100" y="240" width="70" height="70" rx="14" fill="#C8F135" opacity=".9"/>
+    <text x="95" y="430" text-anchor="middle" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',monospace" font-size="16" fill="#7D8794">tutor</text>
+  </g>
+</svg>
